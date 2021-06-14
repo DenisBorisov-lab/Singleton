@@ -1,4 +1,4 @@
-package Singleton;
+package LazyInitialization.Singleton;
 
 public class Singleton {
     private static Singleton order;

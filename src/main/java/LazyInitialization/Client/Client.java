@@ -1,6 +1,6 @@
-package Client;
+package LazyInitialization.Client;
 
-import Singleton.Singleton;
+import LazyInitialization.Singleton.Singleton;
 
 public class Client {
     public static void main(String[] args) {
@@ -10,6 +10,6 @@ public class Client {
         System.out.println("Заказ столика 13: " + anotherOrder.value);//выведется "рыба-фугу"
         order.value = "Карп";
         System.out.println("Заказ столика 14: " + order.value);//выведется "Карп"
-        System.out.println("Заказ столика 23:" + anotherOrder.value);//выведется "Карп"
+        System.out.println("Заказ столика 23: " + anotherOrder.value);//выведется "Карп"
     }
 }
